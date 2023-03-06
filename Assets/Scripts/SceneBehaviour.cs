@@ -47,6 +47,7 @@ public class SceneBehaviour : MonoBehaviour
        GameObject platform = Instantiate(platformsLoad[Random.Range(0,platformsLoad.Length)], platformsSpawners[Random.Range(0,platformsSpawners.Length)].transform.position, Quaternion.identity, Scenario.transform);
        platformCounter++;
        Destroy(platform, 6f);
+       Invoke("checkForItems", 8f);
     }
 
     private void CreateItems()
@@ -54,6 +55,14 @@ public class SceneBehaviour : MonoBehaviour
        GameObject items = Instantiate(itemsLoad[Random.Range(0,itemsLoad.Length)], itemsSpawners[Random.Range(0,itemsSpawners.Length)].transform.position, Quaternion.identity, Scenario.transform);
        Destroy(items, 6f);
 
+    }
+
+    void checkForItems()
+    {
+        if(!GameObject.FindWithTag("Collectables"))
+        {
+            CreateSceneItems();
+        }
     }
  
     

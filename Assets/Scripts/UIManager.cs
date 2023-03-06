@@ -26,6 +26,10 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
+        player = GameObject.FindWithTag("Player");
+        enemy = GameObject.FindWithTag("Enemy");
+        obstacle = GameObject.FindWithTag("Obstacle");
+        collectable = GameObject.FindWithTag("Collectables");
 
     }
 
