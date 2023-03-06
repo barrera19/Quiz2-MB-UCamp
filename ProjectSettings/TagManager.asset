@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Obstacle
+  - Limits
+  - Enemy
+  - Collectables
+  - restartP
+  - Scenario
+  - LimitDestroy
+  - Platform
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - isGround
+  - Water
+  - UI
+  - Scenario
+  - Limits
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Fondo
+    uniqueID: 1370807795
+    locked: 0
+  - name: Suelo
+    uniqueID: 74387597
+    locked: 0
+  - name: Scenario
+    uniqueID: 3477390667
+    locked: 0
+  - name: Player
+    uniqueID: 2559385927
+    locked: 0
