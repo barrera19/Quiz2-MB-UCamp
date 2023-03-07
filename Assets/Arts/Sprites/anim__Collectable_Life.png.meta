@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c9ec5ada857d558459a22e58c314eff6
+guid: a64f8524146563d4d964286ad9399025
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -141,169 +141,274 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 01_circleAnimation_0
+      name: anim__Collectable_Life_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 172
-        height: 171
+        width: 294
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 13, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caca171077c397b479c767e21e0d1548
-      internalID: -1531246439
+      spriteID: 25538376c40fed9438e2a89f5b2881e6
+      internalID: 918994684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_1
+      name: anim__Collectable_Life_1
       rect:
         serializedVersion: 2
-        x: 181
+        x: 300
         y: 0
-        width: 172
-        height: 171
+        width: 242
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dab1924efead1df4aabcd0089bbf92f2
-      internalID: -1075864755
+      spriteID: 0b0cd658b5abd0d4aacb8511f064d710
+      internalID: -1187479730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_2
+      name: anim__Collectable_Life_2
       rect:
         serializedVersion: 2
-        x: 365
+        x: 542
         y: 0
-        width: 172
-        height: 171
+        width: 271.76923
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20c9f687a5e39194f8d72c9c94ff37bc
-      internalID: 1671390538
+      spriteID: 23d7930510dc7a3438831b46c7434a81
+      internalID: 550194400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_3
+      name: anim__Collectable_Life_3
       rect:
         serializedVersion: 2
-        x: 549
+        x: 813
         y: 0
-        width: 172
-        height: 171
+        width: 271.76923
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e32ee2f92b578f46a20ffbaa23de9eb
-      internalID: 506526835
+      spriteID: 22eee8dcac1539d48aa60647942231ef
+      internalID: -1070993039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_4
+      name: anim__Collectable_Life_4
       rect:
         serializedVersion: 2
-        x: 747
+        x: 1084
         y: 0
-        width: 172
-        height: 171
+        width: 271.76923
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fcaf8ed933977644a3bb64b876a3183
-      internalID: 537215919
+      spriteID: 45aef81e5a10c26489388dd61fa9c4db
+      internalID: 1235976576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_5
+      name: anim__Collectable_Life_5
       rect:
         serializedVersion: 2
-        x: 945
+        x: 1355
         y: 0
-        width: 172
-        height: 171
+        width: 271.76923
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e7f66c10ec0782479c38f11a94d35c9
-      internalID: -1872033550
+      spriteID: c07f3ff11fda08644b4f413c00635129
+      internalID: -268691431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_6
+      name: anim__Collectable_Life_6
       rect:
         serializedVersion: 2
-        x: 1143
+        x: 1626
         y: 0
-        width: 172
-        height: 171
+        width: 271.76923
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e802da5c2bd1e6f4daf9931da06d521c
-      internalID: -59030833
+      spriteID: bacbebdba45c58a47a4a808907689597
+      internalID: -363923650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_7
+      name: anim__Collectable_Life_7
       rect:
         serializedVersion: 2
-        x: 1341
+        x: 1897
         y: 0
-        width: 172
-        height: 171
+        width: 271.76923
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb025632a17d6454bba11c46990642af
-      internalID: -2084164277
+      spriteID: 133b3a12ef626304f8fce465e8148532
+      internalID: 1760610438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim__Collectable_Life_8
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 0
+        width: 271.76923
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12bfb6ade1ef0e4f84e69e82f5c1e95
+      internalID: 897765138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim__Collectable_Life_9
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 0
+        width: 271.76923
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74501b23c1205b44684d0ff7d47bba2c
+      internalID: -962077580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim__Collectable_Life_10
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 0
+        width: 271.76923
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe7a63f00f52394bb99b346a78a7588
+      internalID: -358821870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim__Collectable_Life_11
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 0
+        width: 223
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bf858f99ced254a89d0913203d8f71
+      internalID: 1300655540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim__Collectable_Life_12
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 0
+        width: 260
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be10bf800c548c34187feab5029e5b70
+      internalID: -2109328550
       vertices: []
       indices: 
       edges: []
@@ -319,14 +424,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      01_circleAnimation_1: -1075864755
-      01_circleAnimation_7: -2084164277
-      01_circleAnimation_4: 537215919
-      01_circleAnimation_0: -1531246439
-      01_circleAnimation_2: 1671390538
-      01_circleAnimation_3: 506526835
-      01_circleAnimation_6: -59030833
-      01_circleAnimation_5: -1872033550
+      anim__Collectable_Life_7: 1760610438
+      anim__Collectable_Life_0: 918994684
+      anim__Collectable_Life_1: -1187479730
+      anim__Collectable_Life_10: -358821870
+      anim__Collectable_Life_6: -363923650
+      anim__Collectable_Life_11: 1300655540
+      anim__Collectable_Life_2: 550194400
+      anim__Collectable_Life_5: -268691431
+      anim__Collectable_Life_4: 1235976576
+      anim__Collectable_Life_8: 897765138
+      anim__Collectable_Life_9: -962077580
+      anim__Collectable_Life_12: -2109328550
+      anim__Collectable_Life_3: -1070993039
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

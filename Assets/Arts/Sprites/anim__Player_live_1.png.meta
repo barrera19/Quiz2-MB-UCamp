@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c9ec5ada857d558459a22e58c314eff6
+guid: e56eddcf7f837c64591b705745a7ba8d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -141,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 01_circleAnimation_0
+      name: anim__Player_live_1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 172
-        height: 171
+        y: 1
+        width: 188
+        height: 191
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caca171077c397b479c767e21e0d1548
-      internalID: -1531246439
+      spriteID: 30dba3c02971adf44b57ac47142b2d85
+      internalID: 1666631936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_1
+      name: anim__Player_live_1_1
       rect:
         serializedVersion: 2
-        x: 181
-        y: 0
-        width: 172
-        height: 171
+        x: 208
+        y: 1
+        width: 191
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dab1924efead1df4aabcd0089bbf92f2
-      internalID: -1075864755
+      spriteID: db0cfed16b864b44186e903277f6110f
+      internalID: -535213299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_2
+      name: anim__Player_live_1_2
       rect:
         serializedVersion: 2
-        x: 365
-        y: 0
-        width: 172
-        height: 171
+        x: 418
+        y: 3
+        width: 190
+        height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20c9f687a5e39194f8d72c9c94ff37bc
-      internalID: 1671390538
+      spriteID: 7c01c0e49a7186a4bb45293674da460c
+      internalID: 1408775866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_3
+      name: anim__Player_live_1_3
       rect:
         serializedVersion: 2
-        x: 549
-        y: 0
-        width: 172
-        height: 171
+        x: 625
+        y: 1
+        width: 191
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e32ee2f92b578f46a20ffbaa23de9eb
-      internalID: 506526835
+      spriteID: 0851e5b2e56e47c42834e6f60af8749d
+      internalID: 1757037140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_4
+      name: anim__Player_live_1_4
       rect:
         serializedVersion: 2
-        x: 747
-        y: 0
-        width: 172
-        height: 171
+        x: 837
+        y: 1
+        width: 188
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fcaf8ed933977644a3bb64b876a3183
-      internalID: 537215919
+      spriteID: 64767c4fe6e972d4a8c1361591d6f82f
+      internalID: -759399429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_5
+      name: anim__Player_live_1_5
       rect:
         serializedVersion: 2
-        x: 945
+        x: 1043
         y: 0
-        width: 172
-        height: 171
+        width: 190
+        height: 191
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,20 +260,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e7f66c10ec0782479c38f11a94d35c9
-      internalID: -1872033550
+      spriteID: ff688683476e81b40a04239fbd9d338e
+      internalID: -936489372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_6
+      name: anim__Player_live_1_6
       rect:
         serializedVersion: 2
-        x: 1143
+        x: 1251
         y: 0
-        width: 172
-        height: 171
+        width: 190
+        height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,20 +281,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e802da5c2bd1e6f4daf9931da06d521c
-      internalID: -59030833
+      spriteID: be3eaa73f006a64419df6f5343465904
+      internalID: 1688881417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_7
+      name: anim__Player_live_1_7
       rect:
         serializedVersion: 2
-        x: 1341
+        x: 1460
         y: 0
-        width: 172
-        height: 171
+        width: 191
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,8 +302,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb025632a17d6454bba11c46990642af
-      internalID: -2084164277
+      spriteID: 84151fc8d7f02db409181ffa65669ddb
+      internalID: 1795472667
       vertices: []
       indices: 
       edges: []
@@ -319,14 +319,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      01_circleAnimation_1: -1075864755
-      01_circleAnimation_7: -2084164277
-      01_circleAnimation_4: 537215919
-      01_circleAnimation_0: -1531246439
-      01_circleAnimation_2: 1671390538
-      01_circleAnimation_3: 506526835
-      01_circleAnimation_6: -59030833
-      01_circleAnimation_5: -1872033550
+      anim__Player_live_1_6: 1688881417
+      anim__Player_live_1_4: -759399429
+      anim__Player_live_1_2: 1408775866
+      anim__Player_live_1_5: -936489372
+      anim__Player_live_1_1: -535213299
+      anim__Player_live_1_7: 1795472667
+      anim__Player_live_1_0: 1666631936
+      anim__Player_live_1_3: 1757037140
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

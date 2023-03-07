@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c9ec5ada857d558459a22e58c314eff6
+guid: e6a327da21513eb4abef6201e0cfba80
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -141,169 +141,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 01_circleAnimation_0
+      name: anim__Collectable_new_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 34
         y: 0
-        width: 172
-        height: 171
+        width: 247
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caca171077c397b479c767e21e0d1548
-      internalID: -1531246439
+      spriteID: f099ffed44357d84daa08675c6787bf1
+      internalID: 1472681618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_1
+      name: anim__Collectable_new_1
       rect:
         serializedVersion: 2
-        x: 181
+        x: 281
         y: 0
-        width: 172
-        height: 171
+        width: 258
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dab1924efead1df4aabcd0089bbf92f2
-      internalID: -1075864755
+      spriteID: 6d2fafdda793f2e4f9061d1e6fe09853
+      internalID: 113590841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_2
+      name: anim__Collectable_new_2
       rect:
         serializedVersion: 2
-        x: 365
+        x: 538
         y: 0
-        width: 172
-        height: 171
+        width: 269.33334
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20c9f687a5e39194f8d72c9c94ff37bc
-      internalID: 1671390538
+      spriteID: 45dd38c559d19eb48904fe44306fe18e
+      internalID: 1015508546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_3
+      name: anim__Collectable_new_3
       rect:
         serializedVersion: 2
-        x: 549
+        x: 807
         y: 0
-        width: 172
-        height: 171
+        width: 269.33334
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e32ee2f92b578f46a20ffbaa23de9eb
-      internalID: 506526835
+      spriteID: 5c72a2c418199514da83c0b067c88dd9
+      internalID: 46282047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_4
+      name: anim__Collectable_new_4
       rect:
         serializedVersion: 2
-        x: 747
+        x: 1076
         y: 0
-        width: 172
-        height: 171
+        width: 269.33334
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fcaf8ed933977644a3bb64b876a3183
-      internalID: 537215919
+      spriteID: ac7c887751a1a334aa050f8387f9e081
+      internalID: 1220788149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_5
+      name: anim__Collectable_new_5
       rect:
         serializedVersion: 2
-        x: 945
+        x: 1345
         y: 0
-        width: 172
-        height: 171
+        width: 269.33334
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e7f66c10ec0782479c38f11a94d35c9
-      internalID: -1872033550
+      spriteID: 15e5180f78c96994499b929fe88a2ed6
+      internalID: 2092967296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_6
+      name: anim__Collectable_new_6
       rect:
         serializedVersion: 2
-        x: 1143
+        x: 1614
         y: 0
-        width: 172
-        height: 171
+        width: 269.33334
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e802da5c2bd1e6f4daf9931da06d521c
-      internalID: -59030833
+      spriteID: eedf85cc7ecc80f4385078be6db0662a
+      internalID: -768776720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_7
+      name: anim__Collectable_new_7
       rect:
         serializedVersion: 2
-        x: 1341
+        x: 1883
         y: 0
-        width: 172
-        height: 171
+        width: 269.33334
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb025632a17d6454bba11c46990642af
-      internalID: -2084164277
+      spriteID: 89fbb912bffa43045820d76d2246ccab
+      internalID: -677371432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim__Collectable_new_8
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 0
+        width: 269.33334
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aaf35a555779114d94337cfb020d716
+      internalID: -125411105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim__Collectable_new_9
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 0
+        width: 269.33334
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045e08da27650df4498bd57cd1f4dc39
+      internalID: -2050294117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim__Collectable_new_10
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 0
+        width: 252
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9d1c58b0fbeb64fa54f728922e298c
+      internalID: -243579660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim__Collectable_new_11
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 0
+        width: 257
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5be1a0585a4f340b533bef8af6fc4a
+      internalID: 371305724
       vertices: []
       indices: 
       edges: []
@@ -319,14 +403,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      01_circleAnimation_1: -1075864755
-      01_circleAnimation_7: -2084164277
-      01_circleAnimation_4: 537215919
-      01_circleAnimation_0: -1531246439
-      01_circleAnimation_2: 1671390538
-      01_circleAnimation_3: 506526835
-      01_circleAnimation_6: -59030833
-      01_circleAnimation_5: -1872033550
+      anim__Collectable_new_9: -2050294117
+      anim__Collectable_new_7: -677371432
+      anim__Collectable_new_5: 2092967296
+      anim__Collectable_new_2: 1015508546
+      anim__Collectable_new_1: 113590841
+      anim__Collectable_new_6: -768776720
+      anim__Collectable_new_11: 371305724
+      anim__Collectable_new_10: -243579660
+      anim__Collectable_new_0: 1472681618
+      anim__Collectable_new_4: 1220788149
+      anim__Collectable_new_3: 46282047
+      anim__Collectable_new_8: -125411105
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

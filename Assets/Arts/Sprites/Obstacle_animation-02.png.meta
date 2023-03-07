@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c9ec5ada857d558459a22e58c314eff6
+guid: b465179196ba00f458be52f1c32c6edc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -141,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 01_circleAnimation_0
+      name: Obstacle_animation-02_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 172
-        height: 171
+        width: 271.54544
+        height: 626
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caca171077c397b479c767e21e0d1548
-      internalID: -1531246439
+      spriteID: 81ae19243996ca244985e53611ca8bff
+      internalID: 958009582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_1
+      name: Obstacle_animation-02_1
       rect:
         serializedVersion: 2
-        x: 181
+        x: 271
         y: 0
-        width: 172
-        height: 171
+        width: 271.54544
+        height: 626
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dab1924efead1df4aabcd0089bbf92f2
-      internalID: -1075864755
+      spriteID: c2f2c7ec1c656db41b8ca2bc9249f697
+      internalID: 1581319393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_2
+      name: Obstacle_animation-02_2
       rect:
         serializedVersion: 2
-        x: 365
+        x: 542
         y: 0
-        width: 172
-        height: 171
+        width: 271.54544
+        height: 626
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20c9f687a5e39194f8d72c9c94ff37bc
-      internalID: 1671390538
+      spriteID: c3d8b9cef42c45f4f99e20f77084446c
+      internalID: -984839137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_3
+      name: Obstacle_animation-02_3
       rect:
         serializedVersion: 2
-        x: 549
+        x: 813
         y: 0
-        width: 172
-        height: 171
+        width: 271.54544
+        height: 626
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e32ee2f92b578f46a20ffbaa23de9eb
-      internalID: 506526835
+      spriteID: 078afb8b8daf8174aa8fd4ba740f959d
+      internalID: -1558840771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_4
+      name: Obstacle_animation-02_4
       rect:
         serializedVersion: 2
-        x: 747
+        x: 1084
         y: 0
-        width: 172
-        height: 171
+        width: 271.54544
+        height: 626
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fcaf8ed933977644a3bb64b876a3183
-      internalID: 537215919
+      spriteID: 903382abac2791245b1a4df89ea18b57
+      internalID: -1641441881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_5
+      name: Obstacle_animation-02_5
       rect:
         serializedVersion: 2
-        x: 945
+        x: 1355
         y: 0
-        width: 172
-        height: 171
+        width: 271.54544
+        height: 626
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,20 +260,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e7f66c10ec0782479c38f11a94d35c9
-      internalID: -1872033550
+      spriteID: db07f69ff33a4044aa2d81d0c48a4bc6
+      internalID: -611327176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_6
+      name: Obstacle_animation-02_6
       rect:
         serializedVersion: 2
-        x: 1143
+        x: 1626
         y: 0
-        width: 172
-        height: 171
+        width: 271.54544
+        height: 626
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,20 +281,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e802da5c2bd1e6f4daf9931da06d521c
-      internalID: -59030833
+      spriteID: e9738a754ae34b2429b20316048f9796
+      internalID: -1930936632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_circleAnimation_7
+      name: Obstacle_animation-02_7
       rect:
         serializedVersion: 2
-        x: 1341
+        x: 1897
         y: 0
-        width: 172
-        height: 171
+        width: 271.54544
+        height: 626
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,8 +302,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb025632a17d6454bba11c46990642af
-      internalID: -2084164277
+      spriteID: ccf7824157c75a54293e48451d36e988
+      internalID: 890370058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obstacle_animation-02_8
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 0
+        width: 271.54544
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3468d5ea30c17bf42940878ed01dcf1b
+      internalID: -1249803709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obstacle_animation-02_9
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 0
+        width: 271.54544
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b051e55ef18e14685d1dc52a6fc0d0
+      internalID: -1390643779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obstacle_animation-02_10
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 0
+        width: 271.54544
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56b4c07818daf44c9dc73dfb0dd706a
+      internalID: 870389017
       vertices: []
       indices: 
       edges: []
@@ -319,14 +382,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      01_circleAnimation_1: -1075864755
-      01_circleAnimation_7: -2084164277
-      01_circleAnimation_4: 537215919
-      01_circleAnimation_0: -1531246439
-      01_circleAnimation_2: 1671390538
-      01_circleAnimation_3: 506526835
-      01_circleAnimation_6: -59030833
-      01_circleAnimation_5: -1872033550
+      Obstacle_animation-02_1: 1581319393
+      Obstacle_animation-02_2: -984839137
+      Obstacle_animation-02_5: -611327176
+      Obstacle_animation-02_6: -1930936632
+      Obstacle_animation-02_3: -1558840771
+      Obstacle_animation-02_7: 890370058
+      Obstacle_animation-02_9: -1390643779
+      Obstacle_animation-02_10: 870389017
+      Obstacle_animation-02_8: -1249803709
+      Obstacle_animation-02_4: -1641441881
+      Obstacle_animation-02_0: 958009582
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
