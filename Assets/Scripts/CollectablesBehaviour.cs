@@ -23,28 +23,4 @@ public class CollectablesBehaviour : MonoBehaviour
         collectableCollider = GetComponent<BoxCollider2D>();
     }
 
-    void Update()
-    {   
-       
-
-        
-    }
-  
-        // void OnTriggerEnter2D(Collider2D collider)
-        // {
-        //     if(collider.tag == ("Player"))
-        //     {
-        //         Destroy(collectableGO);
-        //         //Animación Collectable
-
-        //     }
-        //     if(collider.tag == ("LimitDestroy"))
-        //     {
-        //         Destroy(collectableGO);
-        //         //Animación Collectable
-
-        //     }
-
-        // }
-
 }

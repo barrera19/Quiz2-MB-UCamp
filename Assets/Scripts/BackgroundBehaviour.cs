@@ -12,6 +12,7 @@ public class BackgroundBehaviour : MonoBehaviour
     private Material material;
     private Vector2 _acelerate= new Vector2(1,1);
     
+    
     void Awake()
     {
         backgroundBH = this;

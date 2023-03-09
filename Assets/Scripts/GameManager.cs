@@ -30,6 +30,8 @@ public class GameManager : MonoBehaviour
      int platformMultiplier;
      float timeMultiplier;
 
+    private Animator animator;
+
     
     [Header("UI CONTROL - CANVA")]
     [Range(0,20)] public float worldSpeed;
@@ -42,6 +44,7 @@ public class GameManager : MonoBehaviour
     void Awake(){
         worldSpeed = 0f;
         manager = this;
+        animator = GameObject.FindWithTag("Player").GetComponent<Animator>();
         
     }
     void Start()
@@ -147,6 +150,7 @@ public class GameManager : MonoBehaviour
                     worldSpeed = worldSpeed+ (1*worldSpeedMultiplier);
                     if(worldSpeed>=20f)
                     { worldSpeed=20f; }
+                animator.SetFloat("isSpeed", worldSpeed);
             }    
         }
         if(!Input.GetMouseButton(1)) {
@@ -160,6 +164,7 @@ public class GameManager : MonoBehaviour
                     if(worldSpeed < 5 ) 
                     { worldSpeed = 5; break; }
                 }
+                animator.SetFloat("isSpeed", worldSpeed);
             }
         }
         

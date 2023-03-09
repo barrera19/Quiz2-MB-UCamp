@@ -36,7 +36,7 @@ public class PlayerBehaviour : MonoBehaviour
     void Start()
     {
         colliderPlayer = GetComponent<CircleCollider2D>();
-      //  animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         playerGO = GameObject.FindWithTag("Player");
         rb = GetComponent<Rigidbody2D>();
         newScale = rb.gravityScale;
@@ -61,7 +61,7 @@ public class PlayerBehaviour : MonoBehaviour
             JumpButtonUp();
         }
         onGround = Physics2D.OverlapBox(groundControl.position, groundBox, 0, isGround);
-     //   animator.SetBool("onGround", onGround);
+        animator.SetBool("onGround", onGround);
     }
 
     void FixedUpdate()
@@ -69,6 +69,7 @@ public class PlayerBehaviour : MonoBehaviour
         if (canJump && onGround && jumpUpButton)
         {
             Jump();
+            animator.SetBool("onGround", !onGround);
         }
         if(rb.velocity.y <0 && !onGround)
         {
@@ -117,11 +118,17 @@ public class PlayerBehaviour : MonoBehaviour
 
        void OnTriggerEnter2D(Collider2D collectable)
         {
-        if(collectable.tag == ("Collectables"))
-        {
-            PlayerWonPoints();
-            Destroy(collectable.gameObject);
-        }
+            if(collectable.tag == ("Collectables"))
+            {
+                PlayerWonPoints();
+                Destroy(collectable.gameObject);
+            }
+            if(collectable.tag == ("PlayerLife"))
+            {
+                PlayerWonLife();
+                Destroy(collectable.gameObject);
+            }
+            
         }
 
     void OnDrawGizmosSelected()
@@ -133,13 +140,13 @@ public class PlayerBehaviour : MonoBehaviour
     void PlayerHurt() 
     {
         playerLives--;
+        animator.SetInteger("PlayerLives", playerLives);
         if(playerPoints>=50)
         playerPoints -= 50;
         else playerPoints = 0;
          
         if(playerLives <= 0) manager.GameOver();
-        //Cambia Sprite
-       
+      
     }
 
     void PlayerWonPoints()
@@ -150,7 +157,13 @@ public class PlayerBehaviour : MonoBehaviour
         {
             playerLives++;
             pointsForLives = 0;
-            //Cambia Sprite
+            animator.SetInteger("PlayerLives", playerLives);    
         }
+    }
+
+    void PlayerWonLife()
+    {
+        playerLives++;
+        animator.SetInteger("PlayerLives", playerLives);
     }
 }

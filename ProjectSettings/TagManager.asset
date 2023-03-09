@@ -13,6 +13,7 @@ TagManager:
   - Scenario
   - LimitDestroy
   - Platform
+  - PlayerLife
   layers:
   - Default
   - TransparentFX
