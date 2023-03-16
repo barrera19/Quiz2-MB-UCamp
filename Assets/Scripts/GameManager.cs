@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
     
 
      [Header("Game Play Scenarios")]
+
+     
      public GameObject gamePlay;
      public GameObject backgroundStart;
      public GameObject backgroundGameplay;
@@ -31,10 +33,12 @@ public class GameManager : MonoBehaviour
      float timeMultiplier;
 
     private Animator animator;
+    private Animator groundAnimator;
 
     
     [Header("UI CONTROL - CANVA")]
     [Range(0,20)] public float worldSpeed;
+    [SerializeField] GameObject canvaIntro;
     [SerializeField] GameObject canvaStart;
     [SerializeField] GameObject canvaGame;
     [SerializeField] GameObject canvaGameOver;
@@ -45,6 +49,8 @@ public class GameManager : MonoBehaviour
         worldSpeed = 0f;
         manager = this;
         animator = GameObject.FindWithTag("Player").GetComponent<Animator>();
+        groundAnimator = GameObject.FindWithTag("Ground").GetComponent<Animator>();
+        canvaStart.SetActive(true);
         
     }
     void Start()
@@ -62,7 +68,7 @@ public class GameManager : MonoBehaviour
         backgroundGameOver.SetActive(false);
         timeMultiplier = 1f;
         
-
+        UIManager.uiManager.gameAudio.Play();
         
 
 
@@ -99,6 +105,7 @@ public class GameManager : MonoBehaviour
         SceneBehaviour.sceneBehaviour.CreateSceneItems();
         InvokeRepeating("TimeMultiplier", 10f, 15f);
         
+        
         worldSpeed = 5f;
     }
 
@@ -122,9 +129,12 @@ public class GameManager : MonoBehaviour
         worldSpeed = 0;
         Time.timeScale = 1;
         canvaGameOver.SetActive(true);
+        UIManager.uiManager.gameAudio.Pause();
+        UIManager.uiManager.gameOverSound.Play();
         finalPoints.text = playerBH.playerPoints.ToString();
         SceneBehaviour.sceneBehaviour.StopScenePlatforms();
         SceneBehaviour.sceneBehaviour.StopSceneItems();
+        
 
         print("GameOver");
     }
@@ -143,17 +153,24 @@ public class GameManager : MonoBehaviour
 
     void FixedUpdate()
     {
+        AcelerateWorld();
+        
+    }
+
+    void AcelerateWorld()
+    {
         float worldSpeedMultiplier = 1.1f;
-        if(Input.GetMouseButton(1)) {   
+        if(Input.GetMouseButton(1) || Input.GetKey(KeyCode.LeftShift)) {   
             {    
                 backgroundBH.Acelerate(1.3f, 1.2f);
                     worldSpeed = worldSpeed+ (1*worldSpeedMultiplier);
                     if(worldSpeed>=20f)
                     { worldSpeed=20f; }
                 animator.SetFloat("isSpeed", worldSpeed);
+                groundAnimator.SetFloat("isSpeed", worldSpeed);
             }    
         }
-        if(!Input.GetMouseButton(1)) {
+        if(!Input.GetMouseButton(1) || Input.GetKeyUp(KeyCode.LeftShift)) {
             {   
                 backgroundBH.Acelerate(0.8f, 0.8f);
                 while(worldSpeed > 5)
@@ -165,9 +182,9 @@ public class GameManager : MonoBehaviour
                     { worldSpeed = 5; break; }
                 }
                 animator.SetFloat("isSpeed", worldSpeed);
+                groundAnimator.SetFloat("isSpeed", worldSpeed);
             }
         }
-        
     }
     
 }

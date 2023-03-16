@@ -25,13 +25,4 @@ public class PlatformBehaviour : MonoBehaviour
     {
         
     }
-    void OnCollisionEnter2D (Collision2D limit)
-    {
-        print("Plataforma en el Final");
-        if(limit.collider.tag == ("LimitDestroy")) {
-            SceneBehaviour.sceneBehaviour.platformCounter++;
-            Destroy(this);
-            
-        }
-    }
 }

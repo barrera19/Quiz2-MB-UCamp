@@ -111,6 +111,7 @@ public class PlayerBehaviour : MonoBehaviour
         }
         if(collision.collider.CompareTag("Obstacle"))
         {
+            UIManager.uiManager.audioObstacle.Play();
             PlayerHurt();
             Destroy(collision.collider.gameObject);
         }
@@ -121,11 +122,13 @@ public class PlayerBehaviour : MonoBehaviour
             if(collectable.tag == ("Collectables"))
             {
                 PlayerWonPoints();
+                UIManager.uiManager.audioCollectable.Play();
                 Destroy(collectable.gameObject);
             }
             if(collectable.tag == ("PlayerLife"))
             {
                 PlayerWonLife();
+                UIManager.uiManager.audioExtraLife.Play();
                 Destroy(collectable.gameObject);
             }
             

@@ -18,10 +18,19 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject enemy;
     [SerializeField] GameObject obstacle;
     [SerializeField] GameObject collectable;
- 
+
+    [Header("Audio Source")]
+
+    public AudioSource gameAudio;
+    public AudioSource audioCollectable;
+    public AudioSource audioObstacle;
+    public AudioSource audioExtraLife;
+    public AudioSource gameOverSound;
+    bool muted = false;
     void Awake()
     {
         uiManager = this;
+        
     }
 
     void Start()
@@ -42,13 +51,26 @@ public class UIManager : MonoBehaviour
 
     public void MuteMusic()
     {
-        //Mutear Musica
-    
+        gameAudio.Pause();
+        if (muted)
+        {
+            gameAudio.UnPause();
+            muted = false;
+        } else muted = true;
+
     }
     public void soundEfect()
     {
         
     }
+    
+    // void OnTriggerEnter2D(Collider2D collider)
+    // {
+    //     if()
+    //     {
+
+    //     }
+    // }
 
 
 }
